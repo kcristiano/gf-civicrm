@@ -1,10 +1,3 @@
-# Experimental branch
-
-This branch of the plugin is used to implement remote CiviCRM support via the CiviMRF framework. 
-Use of this version of the gf-civicrm plugin is not yet recommended and impossible for non-developers.
-
-See [DEVELOPERS documentation](DEVELOPERS.md) for installation and usage.
-
 # Gravity Forms CiviCRM Integration
 
 This is a [WordPress](https://wordpress.org) plugin that integrates the [Gravity Forms plugin](https://www.gravityforms.com/) with [CiviCRM](https://civicrm.org) using the [Form Processor extension](https://civicrm.org/extensions/form-processor).
@@ -201,6 +194,13 @@ The alert email will include the error message, the Feed, and the Entry ID.
 ## CiviCRM Source
 
 Fields that have access to CiviCRM Source to populate options will only work when using the Checkboxes or Radio fields. Multiple Choice fields were introduced into Gravity Forms later, and are currently not supported by this plugin.
+
+# Remote CiviCRM installations
+
+This plugin supports remote CiviCRM support via the CiviMRF framework. 
+Use of this feature of the gf-civicrm plugin is not yet recommended and impossible for non-developers.
+
+See [DEVELOPERS documentation](DEVELOPERS.md) for installation and usage.
 
 # License
 
