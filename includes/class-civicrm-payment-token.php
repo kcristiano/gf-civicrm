@@ -305,7 +305,7 @@ class CiviCRM_Payment_Token extends GF_Field {
 						['Contribution AS contribution', 'LEFT', ['contribution.contribution_recur_id', '=', 'contribution_recur.id']],
 					],
 					'where' => [
-						['contribution_recur.contribution_status_id:name', 'IN', [ 'In Progress', 'Pending', 'Failing', 'Processing', ]],
+						['contribution_recur.contribution_status_id:name', 'IN', [ 'In Progress', 'Pending', 'Failing', 'Failed', 'Processing', ]],
 						['payment_processor_id', '=', $field['civicrm_payment_processor']],
 					],
 					'orderBy' => [
